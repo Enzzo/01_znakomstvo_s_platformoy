@@ -41,4 +41,7 @@
   <constants>Constant.ГенеральныйДиректор</constants>
   <constants>Constant.ИНН</constants>
   <constants>Constant.НазваниеОрганизации</constants>
+  <catalogs>Catalog.Контрагент</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Подразделение</catalogs>
 </mdclass:Configuration>
