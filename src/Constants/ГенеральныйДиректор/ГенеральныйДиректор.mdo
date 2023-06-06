@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9585b2ff-11b8-4cc3-927a-8e63c702240b">
+  <producedTypes>
+    <managerType typeId="c9ea97ce-3baf-4b59-8c88-c58f27b7ddc6" valueTypeId="1e554963-6435-4ca5-9f33-e4b9692f09b8"/>
+    <valueManagerType typeId="c1577f57-1064-4cca-94fe-f445d90cb9a4" valueTypeId="812ca59d-fd42-47e7-a5f4-90b8552ce6b2"/>
+    <valueKeyType typeId="9e0d9c7e-68fa-4400-8302-288c7393ddce" valueTypeId="c8f3c352-f06b-4358-88dd-769bd58964c9"/>
+  </producedTypes>
+  <name>ГенеральныйДиректор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генеральный директор</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
