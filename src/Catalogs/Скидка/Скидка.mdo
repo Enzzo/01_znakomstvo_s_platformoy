@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fc1a1c9-5a85-4afd-80cb-ebb0c57c10b0">
+  <producedTypes>
+    <objectType typeId="5342e482-f064-4afb-96ee-d88235b89543" valueTypeId="e4d5170f-ec34-4889-a82d-a4565eb061d9"/>
+    <refType typeId="d5242a7a-fb75-4e00-8faf-34c9266455be" valueTypeId="a6fc3b0b-400d-41e1-9bd0-fb9e6b87c6fe"/>
+    <selectionType typeId="02800430-f94f-4716-aa1d-b3faacbfafc5" valueTypeId="1df24c95-ff37-46d6-8a81-95231937592e"/>
+    <listType typeId="85f4efa9-34c9-42a5-a480-c446f9044f90" valueTypeId="87c18cfa-2f3d-4572-bb12-7151a92c1bc4"/>
+    <managerType typeId="3ac05be7-5ebb-487a-b4f3-081737ccc595" valueTypeId="9c59652a-1d9d-45ec-823c-a3d5f18552f5"/>
+  </producedTypes>
+  <name>Скидка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скидки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Скидка.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Скидка.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Скидка</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Скидки номенклатуры</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="6d3dc13f-fba2-4cd9-ad91-b569df9beb53">
+      <name>БезСкидки</name>
+      <description>Без скидки</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b62387ef-dfe8-4935-a89b-336d8052365d">
+    <name>ПроцентСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент скидки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
