@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d51b5611-a398-455b-976f-8ede408dc388">
+  <producedTypes>
+    <objectType typeId="1ba14033-f659-497d-93d0-9111c7f3af0c" valueTypeId="88df2813-dfc7-41ae-932c-b59ed99e2706"/>
+    <refType typeId="50568e39-9bfc-4592-80fa-d7823582e23d" valueTypeId="1a3cbe16-935e-4859-a48e-159a7e0f09ce"/>
+    <selectionType typeId="78a4f753-c6d3-489f-b047-b267ee37a74c" valueTypeId="0be0cc78-2892-410d-b1b1-cd6783158194"/>
+    <listType typeId="83ce419a-d7e5-4e68-8422-ebe53a6426f5" valueTypeId="4e690b49-4d9d-4787-a609-480c49e34fe6"/>
+    <managerType typeId="7cb8f6ac-fed2-4c2b-acb2-736027de7c2a" valueTypeId="c8f6112c-b479-485a-bc3b-0746c9e60152"/>
+  </producedTypes>
+  <name>Специальности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Специальности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Специальности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Специальности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Специальность</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
