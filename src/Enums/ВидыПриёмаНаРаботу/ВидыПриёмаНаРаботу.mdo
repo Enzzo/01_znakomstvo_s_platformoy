@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd40def2-5e78-44f7-89e8-2676afd6cb20">
+  <producedTypes>
+    <refType typeId="fe0dfd41-af8a-401d-a06e-0337e4023261" valueTypeId="ed8b4e79-e357-4c6e-8b7a-df754d9c7f4f"/>
+    <listType typeId="7ea54159-bcf3-47d2-82bc-04b644fcdb7a" valueTypeId="a5456d3d-f793-4563-b2b7-715c24777e82"/>
+    <managerType typeId="2232acf1-e87c-4a5f-8e50-2aa9f69061ef" valueTypeId="96e734dc-7837-4ca5-8701-71c6fb1dc566"/>
+  </producedTypes>
+  <name>ВидыПриёмаНаРаботу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды приёма на работу</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e4ea7f48-9a87-4949-968e-06687ecc71d8">
+    <name>Штатный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штатный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25d65387-617c-48d4-8dfb-3efbb1f6d4e9">
+    <name>ВнутреннийСовместитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний совместитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d5b160a-d95b-4930-82fe-a82069aa435f">
+    <name>ВнешнийСовместитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний совместитель</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

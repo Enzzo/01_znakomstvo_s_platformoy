@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb19c44b-c4d8-479f-8610-c1151a0956c1">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb19c44b-c4d8-479f-8610-c1151a0956c1">
   <producedTypes>
     <objectType typeId="7a49dfa0-9b89-4e09-b23a-73bd53b6aca5" valueTypeId="15efcd99-f525-442f-a8b1-6d0951c7a08f"/>
     <refType typeId="e41d523f-1e59-411e-a238-2174588bcd0d" valueTypeId="e7c47542-5120-4b22-9d60-ae4a23f0c89b"/>
@@ -39,4 +39,48 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="0f8f92ec-e03f-482e-8585-b0acdf9101dc">
+    <name>КачествоТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Качество товара</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КачествоТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.КачествоТоваров.EnumValue.Обычное</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="311c2384-cc42-4638-aa79-97343967c74f">
+    <name>ПроисхождениеТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Происхождение товара</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПроисхождениеНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ПроисхождениеНоменклатуры.EnumValue.Отечественный</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="95ba9ee4-8844-4b73-95e9-d8ca0f0507c4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

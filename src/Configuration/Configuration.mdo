@@ -48,4 +48,7 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Специальности</catalogs>
   <catalogs>Catalog.Учреждения</catalogs>
+  <enums>Enum.ВидыПриёмаНаРаботу</enums>
+  <enums>Enum.КачествоТоваров</enums>
+  <enums>Enum.ПроисхождениеНоменклатуры</enums>
 </mdclass:Configuration>

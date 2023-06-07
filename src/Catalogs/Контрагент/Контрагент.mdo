@@ -72,6 +72,7 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Контрагент.Form.ФормаСписка</defaultListForm>
   <attributes uuid="ee65fd20-9444-4cc5-aa1c-8d5875e4b04c">
     <name>ИНН</name>
     <synonym>
@@ -110,4 +111,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="32551c1c-c266-4fcd-a3bb-81de4c6b613d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
