@@ -278,7 +278,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.Контрагент</types>
+      <types>CatalogObject.Контрагенты</types>
     </valueType>
     <view>
       <common>true</common>

@@ -7,14 +7,14 @@
     <listType typeId="dcd195c6-ad5f-428e-8157-8c7c5960eaec" valueTypeId="949830b9-1738-44cb-bc7a-c4019e82bec8"/>
     <managerType typeId="35bfd25e-b049-4596-aa0f-81cddc1472d6" valueTypeId="3fa959fc-b193-4abd-bbb1-c108bcdf797a"/>
   </producedTypes>
-  <name>Контрагент</name>
+  <name>Контрагенты</name>
   <synonym>
     <key>ru</key>
     <value>Контрагенты</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Контрагент.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Контрагент.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -72,8 +72,8 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.Контрагент.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.Контрагент.Form.ФормаСписка</defaultListForm>
+  <defaultObjectForm>Catalog.Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Контрагенты.Form.ФормаСписка</defaultListForm>
   <attributes uuid="ee65fd20-9444-4cc5-aa1c-8d5875e4b04c">
     <name>ИНН</name>
     <synonym>

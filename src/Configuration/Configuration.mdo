@@ -42,13 +42,14 @@
   <constants>Constant.ИНН</constants>
   <constants>Constant.НазваниеОрганизации</constants>
   <catalogs>Catalog.Договоры</catalogs>
-  <catalogs>Catalog.Контрагент</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Подразделение</catalogs>
   <catalogs>Catalog.Скидка</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Специальности</catalogs>
   <catalogs>Catalog.Учреждения</catalogs>
+  <documents>Document.РасходДенег</documents>
   <enums>Enum.ВидыПриёмаНаРаботу</enums>
   <enums>Enum.КачествоТоваров</enums>
   <enums>Enum.ПроисхождениеНоменклатуры</enums>
