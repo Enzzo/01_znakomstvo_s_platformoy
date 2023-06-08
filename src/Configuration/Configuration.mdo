@@ -49,8 +49,12 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Специальности</catalogs>
   <catalogs>Catalog.Учреждения</catalogs>
+  <documents>Document.ПриходДенег</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходДенег</documents>
+  <documents>Document.РасходнаяНакладная</documents>
   <enums>Enum.ВидыПриёмаНаРаботу</enums>
   <enums>Enum.КачествоТоваров</enums>
   <enums>Enum.ПроисхождениеНоменклатуры</enums>
+  <enums>Enum.СпособыОплаты</enums>
 </mdclass:Configuration>

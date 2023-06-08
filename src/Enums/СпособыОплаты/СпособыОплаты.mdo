@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9d5b43e-41a0-451f-a899-e53d6c8f0b2a">
+  <producedTypes>
+    <refType typeId="ccfd916a-c43e-472f-9c86-c14b0004fb51" valueTypeId="a1917bb0-28e4-4fa7-8bc3-e41bccd2766c"/>
+    <listType typeId="16b1cf79-0eef-47e1-88a1-f752f5794da1" valueTypeId="59d53133-19c8-42b6-801d-6fd1e22844c8"/>
+    <managerType typeId="269e4d8e-e33b-4d22-8f0b-aa3c0822e98b" valueTypeId="12180a16-fb6f-480e-90ba-5192880f8033"/>
+  </producedTypes>
+  <name>СпособыОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы оплаты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="919fe890-4b98-44a8-9df6-455b30cb7da9">
+    <name>Наличные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a7370234-3bcb-4ec9-b87d-fa4b5911deab">
+    <name>Безналичные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безналичные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c755e93-4e88-46a4-a99d-d311a1b8482a">
+    <name>ЭлектронныеДеньги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронные деньги</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
