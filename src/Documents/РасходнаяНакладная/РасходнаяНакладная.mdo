@@ -20,11 +20,11 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Приходная накладная</value>
+    <value>Расходная накладная</value>
   </objectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Приходные накладные</value>
+    <value>Расходные накладные</value>
   </listPresentation>
   <numberType>String</numberType>
   <numberLength>6</numberLength>
@@ -46,6 +46,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -61,6 +62,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <choiceParameterLinks>
       <name>Отбор.Владелец</name>
       <field>Document.РасходнаяНакладная.Attribute.Контрагент</field>
@@ -80,6 +82,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -99,7 +102,43 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="6b516f7a-84ee-47ff-a12b-36c018ecc3d2">
+  <attributes uuid="616421c4-afe1-4a8f-87db-a68bacd7ef56">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e594738c-eebd-4247-a5dd-bf1d463d0b60">
+    <name>СуммаПоДокументу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма по документу</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e15cd249-f25d-4f91-8735-0ffd3a23d512">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -119,10 +158,10 @@
       <value>Товары</value>
     </synonym>
     <attributes uuid="e60a903f-9fac-4b51-b1fa-867d27f7b6fb">
-      <name>Номенклатура</name>
+      <name>Товар</name>
       <synonym>
         <key>ru</key>
-        <value>Номенклатура</value>
+        <value>Товар</value>
       </synonym>
       <type>
         <types>CatalogRef.Номенклатура</types>
@@ -130,6 +169,10 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.Услуга</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -264,6 +307,13 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.Услуга</name>
+        <value xsi:type="core:BooleanValue">
+          <value>true</value>
+        </value>
+      </choiceParameters>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -287,15 +337,13 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <tabularSections uuid="6035fdb7-280a-4cdb-bdd0-ba9409db637d">
-    <producedTypes>
-      <objectType typeId="68bae23b-b0e0-42b2-9ee1-4176528c9c7e" valueTypeId="8d5e1779-fb70-4a55-9e27-130f1075bf10"/>
-      <rowType typeId="39f84c7e-0911-43f6-acea-f6eab6018d7f" valueTypeId="924c0600-3c46-4530-9336-e6cb6612b4a0"/>
-    </producedTypes>
-    <name>Прочее</name>
-    <synonym>
-      <key>ru</key>
-      <value>Прочее</value>
-    </synonym>
-  </tabularSections>
+  <commands uuid="38226819-cda4-44ea-a734-412789d5d947">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.РасходнаяНакладная</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>

@@ -38,6 +38,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Прочие</subsystems>
   <constants>Constant.ГенеральныйДиректор</constants>
   <constants>Constant.ИНН</constants>
   <constants>Constant.НазваниеОрганизации</constants>
@@ -57,4 +60,5 @@
   <enums>Enum.КачествоТоваров</enums>
   <enums>Enum.ПроисхождениеНоменклатуры</enums>
   <enums>Enum.СпособыОплаты</enums>
+  <reports>Report.ОтчетПоПродажам</reports>
 </mdclass:Configuration>

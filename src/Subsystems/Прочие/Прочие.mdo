@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8553d7ba-53b1-478b-b680-23e0d9e87705">
+  <name>Прочие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочие</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.ГенеральныйДиректор</content>
+  <content>Constant.ИНН</content>
+  <content>Constant.НазваниеОрганизации</content>
+  <content>Catalog.Подразделение</content>
+  <content>Catalog.Учреждения</content>
+  <content>Catalog.Специальности</content>
+</mdclass:Subsystem>
