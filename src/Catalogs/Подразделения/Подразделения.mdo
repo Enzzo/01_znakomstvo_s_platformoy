@@ -7,14 +7,14 @@
     <listType typeId="0a5ef572-8283-408a-963e-1d55bb901cd1" valueTypeId="f9421776-c7c5-4117-99b0-5edf300bc4b1"/>
     <managerType typeId="350098a8-ff80-4384-bfa3-0cb93562bf50" valueTypeId="6a4ba5fa-bf18-4e35-a290-dcc3a4541f57"/>
   </producedTypes>
-  <name>Подразделение</name>
+  <name>Подразделения</name>
   <synonym>
     <key>ru</key>
     <value>Подразделения</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Подразделение.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Подразделение.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>

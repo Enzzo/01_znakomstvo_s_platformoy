@@ -12,9 +12,10 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1a8831be-4e8a-4c7d-beba-0c7f2e838d9e"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c9f8508d-b009-4ac1-b609-1efc1192f0f2"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="9bc3f1f3-c690-4ab8-96cd-5f6006f84ccb"/>
-  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <defaultRunMode>OrdinaryApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -42,17 +43,19 @@
   <subsystems>Subsystem.Кадры</subsystems>
   <subsystems>Subsystem.Продажи</subsystems>
   <subsystems>Subsystem.Прочие</subsystems>
-  <constants>Constant.ГенеральныйДиректор</constants>
-  <constants>Constant.ИНН</constants>
+  <functionalOptions>FunctionalOption.ВалютныйУчетПродаж</functionalOptions>
   <constants>Constant.НазваниеОрганизации</constants>
+  <constants>Constant.ИНН</constants>
+  <constants>Constant.ГенеральныйДиректор</constants>
+  <constants>Constant.ВестиВалютныйУчетПродаж</constants>
   <catalogs>Catalog.Договоры</catalogs>
-  <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
-  <catalogs>Catalog.Подразделение</catalogs>
-  <catalogs>Catalog.Скидка</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
-  <catalogs>Catalog.Специальности</catalogs>
   <catalogs>Catalog.Учреждения</catalogs>
+  <catalogs>Catalog.Специальности</catalogs>
+  <catalogs>Catalog.Скидка</catalogs>
   <documents>Document.КадровыйПриказ</documents>
   <documents>Document.ПриходДенег</documents>
   <documents>Document.ПриходнаяНакладная</documents>

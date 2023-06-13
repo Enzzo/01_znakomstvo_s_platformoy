@@ -43,7 +43,7 @@
     <orderFragments>
       <group>NavigationPanelOrdinary</group>
       <commands>Catalog.Договоры.StandardCommand.OpenList</commands>
-      <commands>Catalog.Подразделение.StandardCommand.OpenList</commands>
+      <commands>Catalog.Подразделения.StandardCommand.OpenList</commands>
       <commands>Catalog.Сотрудники.StandardCommand.OpenList</commands>
       <commands>Catalog.Специальности.StandardCommand.OpenList</commands>
       <commands>Catalog.Учреждения.StandardCommand.OpenList</commands>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="756fab40-97f3-4473-8bce-10981c84ff09">
+  <producedTypes>
+    <managerType typeId="4e81b934-2f9d-44a8-a132-9efe43453b9d" valueTypeId="d2fe570c-a37a-4def-b322-80fc170ddfea"/>
+    <valueManagerType typeId="bc0a5de0-ba06-4974-9565-53f141697376" valueTypeId="e10d974a-12ae-479e-8482-63bd39bc20e1"/>
+    <valueKeyType typeId="b6251d86-c7d2-4cf0-a2f9-cf4dde1ba8f0" valueTypeId="59ed862b-844c-4ac0-91bd-b1bc9c3ca4f4"/>
+  </producedTypes>
+  <name>ВестиВалютныйУчетПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести валютный учет продаж</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

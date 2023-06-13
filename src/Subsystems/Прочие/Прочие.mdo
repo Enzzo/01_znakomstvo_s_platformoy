@@ -10,7 +10,7 @@
   <content>Constant.ГенеральныйДиректор</content>
   <content>Constant.ИНН</content>
   <content>Constant.НазваниеОрганизации</content>
-  <content>Catalog.Подразделение</content>
+  <content>Catalog.Подразделения</content>
   <content>Catalog.Учреждения</content>
   <content>Catalog.Специальности</content>
 </mdclass:Subsystem>

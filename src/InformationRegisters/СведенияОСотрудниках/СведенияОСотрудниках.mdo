@@ -26,7 +26,7 @@
       <value>Подразделение</value>
     </synonym>
     <type>
-      <types>CatalogRef.Подразделение</types>
+      <types>CatalogRef.Подразделения</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
