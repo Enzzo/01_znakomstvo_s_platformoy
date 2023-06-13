@@ -1,5 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:Decoration">
+    <name>Декорация1</name>
+    <id>92</id>
+    <title>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>Декорация1РасширеннаяПодсказка</name>
+      <id>94</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>Декорация1КонтекстноеМеню</name>
+      <id>93</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>Label</type>
+    <width>10</width>
+    <autoMaxWidth>true</autoMaxWidth>
+    <height>1</height>
+    <autoMaxHeight>true</autoMaxHeight>
+    <textColor xsi:type="core:ColorRef">
+      <color>Style.SpecialTextColor</color>
+    </textColor>
+    <font xsi:type="core:FontDef">
+      <faceName>AMGDT</faceName>
+      <height>8.0</height>
+      <bold>true</bold>
+      <italic>true</italic>
+    </font>
+    <groupHorizontalAlign>Left</groupHorizontalAlign>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Center</horizontalAlign>
+      <backColor xsi:type="core:ColorDef">
+        <red>255</red>
+        <green>228</green>
+      </backColor>
+      <border xsi:type="core:BorderDef">
+        <style>Single</style>
+      </border>
+    </extInfo>
+  </items>
   <items xsi:type="form:FormField">
     <name>Код</name>
     <id>1</id>
@@ -194,15 +257,18 @@
   </items>
   <items xsi:type="form:FormField">
     <name>Подразделение</name>
-    <id>7</id>
+    <id>86</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Подразделение</segments>
+    </dataPath>
     <extendedTooltip>
       <name>ПодразделениеРасширеннаяПодсказка</name>
-      <id>9</id>
+      <id>88</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -217,7 +283,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ПодразделениеКонтекстноеМеню</name>
-      <id>8</id>
+      <id>87</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -225,10 +291,19 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <editMode>EnterOnInput</editMode>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>ВидПриёмаНаРаботу</name>

@@ -48,7 +48,6 @@
   <constants>Constant.ИНН</constants>
   <constants>Constant.ГенеральныйДиректор</constants>
   <constants>Constant.ВестиВалютныйУчетПродаж</constants>
-  <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
@@ -56,6 +55,7 @@
   <catalogs>Catalog.Учреждения</catalogs>
   <catalogs>Catalog.Специальности</catalogs>
   <catalogs>Catalog.Скидка</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
   <documents>Document.КадровыйПриказ</documents>
   <documents>Document.ПриходДенег</documents>
   <documents>Document.ПриходнаяНакладная</documents>

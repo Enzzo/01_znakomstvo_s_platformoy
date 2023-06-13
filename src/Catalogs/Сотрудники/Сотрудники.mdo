@@ -157,6 +157,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="ef20859e-c6b7-4b9d-b9b2-6addf860da1c">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="ae1c0d1b-d440-49ae-b312-a28669da68d1">
     <producedTypes>
       <objectType typeId="4b00bfad-c7ae-4beb-920a-45dd3d27245d" valueTypeId="de2dba09-9c9b-46b0-9d96-2fde424b5b4c"/>
