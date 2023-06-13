@@ -61,4 +61,6 @@
   <enums>Enum.ПроисхождениеНоменклатуры</enums>
   <enums>Enum.СпособыОплаты</enums>
   <reports>Report.ОтчетПоПродажам</reports>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
 </mdclass:Configuration>

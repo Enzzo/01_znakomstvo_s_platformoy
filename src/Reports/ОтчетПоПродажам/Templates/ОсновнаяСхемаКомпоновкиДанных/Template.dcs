@@ -7,28 +7,42 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Товар</dataPath>
-			<field>Товар</field>
+			<dataPath>Товары.Товар</dataPath>
+			<field>Товары.Товар</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Количество</dataPath>
-			<field>Количество</field>
+			<dataPath>Товары.Количество</dataPath>
+			<field>Товары.Количество</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Всего</dataPath>
-			<field>Всего</field>
+			<dataPath>Товары.Всего</dataPath>
+			<field>Товары.Всего</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>Товары</dataPath>
+			<field>Товары</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	РасходнаяНакладнаяТовары.Товар,
-	РасходнаяНакладнаяТовары.Количество,
-	РасходнаяНакладнаяТовары.Всего
+	РасходнаяНакладная.Товары.(
+		Товар,
+		Количество,
+		Всего)
 ИЗ
-	Документ.РасходнаяНакладная.Товары КАК РасходнаяНакладнаяТовары</query>
+	Документ.РасходнаяНакладная КАК РасходнаяНакладная</query>
 	</dataSet>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
-		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
 	</settingsVariant>
 </DataCompositionSchema>
